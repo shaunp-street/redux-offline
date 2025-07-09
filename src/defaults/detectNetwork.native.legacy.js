@@ -2,6 +2,7 @@
 import AppState from 'react-native'; // eslint-disable-line
 import NetInfo from "@react-native-community/netinfo";
 
+
 class LegacyDetectNetwork {
   constructor(callback) {
     this._reach = null;
